@@ -17,11 +17,12 @@
 		E105962625427F3A00512941 /* youMedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E105962525427F3A00512941 /* youMedUITests.swift */; };
 		E10596392542803C00512941 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E10596382542803C00512941 /* HeaderView.xib */; };
 		E10596452543259100512941 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10596442543259100512941 /* HeaderView.swift */; };
+		E10A2EEE2557901F003D9B8A /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10A2EED2557901F003D9B8A /* View.swift */; };
 		E15D50E4254694D50046BD4A /* ContentDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15D50E3254694D50046BD4A /* ContentDetailTableViewCell.swift */; };
 		E1CF95C4254A6D9C0091D0D0 /* UserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CF95C3254A6D9C0091D0D0 /* UserVC.swift */; };
 		E1CF95CA254A6E1C0091D0D0 /* UserHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1CF95C9254A6E1C0091D0D0 /* UserHeaderView.xib */; };
 		E1CF95CF254A6E910091D0D0 /* UserHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CF95CE254A6E910091D0D0 /* UserHeaderView.swift */; };
-		E1D479BF2543BDAE006A7C2C /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D479BE2543BDAE006A7C2C /* View.swift */; };
+		E1D479BF2543BDAE006A7C2C /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D479BE2543BDAE006A7C2C /* CustomView.swift */; };
 		E1D479E62543CED0006A7C2C /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D479E52543CED0006A7C2C /* TabbarController.swift */; };
 		E1D479F12543D7DD006A7C2C /* SpecialistCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1D479F02543D7DD006A7C2C /* SpecialistCollectionViewCell.xib */; };
 		E1D479FE2543DA09006A7C2C /* SpecialistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D479FD2543DA09006A7C2C /* SpecialistTableViewCell.swift */; };
@@ -66,11 +67,12 @@
 		E105962725427F3A00512941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E10596382542803C00512941 /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 		E10596442543259100512941 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		E10A2EED2557901F003D9B8A /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		E15D50E3254694D50046BD4A /* ContentDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailTableViewCell.swift; sourceTree = "<group>"; };
 		E1CF95C3254A6D9C0091D0D0 /* UserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVC.swift; sourceTree = "<group>"; };
 		E1CF95C9254A6E1C0091D0D0 /* UserHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserHeaderView.xib; sourceTree = "<group>"; };
 		E1CF95CE254A6E910091D0D0 /* UserHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHeaderView.swift; sourceTree = "<group>"; };
-		E1D479BE2543BDAE006A7C2C /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		E1D479BE2543BDAE006A7C2C /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		E1D479E52543CED0006A7C2C /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
 		E1D479F02543D7DD006A7C2C /* SpecialistCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpecialistCollectionViewCell.xib; sourceTree = "<group>"; };
 		E1D479FD2543DA09006A7C2C /* SpecialistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialistTableViewCell.swift; sourceTree = "<group>"; };
@@ -237,7 +239,8 @@
 		E1D479BD2543BD98006A7C2C /* custom components */ = {
 			isa = PBXGroup;
 			children = (
-				E1D479BE2543BDAE006A7C2C /* View.swift */,
+				E1D479BE2543BDAE006A7C2C /* CustomView.swift */,
+				E10A2EED2557901F003D9B8A /* View.swift */,
 			);
 			path = "custom components";
 			sourceTree = "<group>";
@@ -402,12 +405,13 @@
 				E1CF95C4254A6D9C0091D0D0 /* UserVC.swift in Sources */,
 				E1D479E62543CED0006A7C2C /* TabbarController.swift in Sources */,
 				E105960425427F3900512941 /* AppDelegate.swift in Sources */,
-				E1D479BF2543BDAE006A7C2C /* View.swift in Sources */,
+				E1D479BF2543BDAE006A7C2C /* CustomView.swift in Sources */,
 				E105960625427F3900512941 /* SceneDelegate.swift in Sources */,
 				E10596452543259100512941 /* HeaderView.swift in Sources */,
 				E1EE2F0F25569B0A00098E1C /* LoginVC.swift in Sources */,
 				E1D47A17254425B2006A7C2C /* DetailTableViewCell.swift in Sources */,
 				E1CF95CF254A6E910091D0D0 /* UserHeaderView.swift in Sources */,
+				E10A2EEE2557901F003D9B8A /* View.swift in Sources */,
 				E1D479FE2543DA09006A7C2C /* SpecialistTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
