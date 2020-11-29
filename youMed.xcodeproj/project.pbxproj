@@ -18,7 +18,15 @@
 		E10596392542803C00512941 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E10596382542803C00512941 /* HeaderView.xib */; };
 		E10596452543259100512941 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10596442543259100512941 /* HeaderView.swift */; };
 		E10A2EEE2557901F003D9B8A /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10A2EED2557901F003D9B8A /* View.swift */; };
+		E11682252569FE3A0089A246 /* TableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E11682242569FE3A0089A246 /* TableHeaderView.xib */; };
+		E116822D256A09090089A246 /* TableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E116822C256A09090089A246 /* TableHeaderView.swift */; };
+		E1168244256A564E0089A246 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1168243256A564E0089A246 /* UITextField.swift */; };
+		E11FA9CC2573550B00C42C67 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11FA9CB2573550B00C42C67 /* UIView.swift */; };
+		E11FA9D92573563B00C42C67 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11FA9D82573563B00C42C67 /* UIColor.swift */; };
 		E15D50E4254694D50046BD4A /* ContentDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15D50E3254694D50046BD4A /* ContentDetailTableViewCell.swift */; };
+		E16D704525601B44002C7724 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16D704425601B44002C7724 /* UIImageView.swift */; };
+		E16D704E25603193002C7724 /* DoctorInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16D704D25603193002C7724 /* DoctorInfoVC.swift */; };
+		E197F03A256FF96400ABC43B /* ConfirmInformationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E197F039256FF96400ABC43B /* ConfirmInformationVC.swift */; };
 		E1CF95C4254A6D9C0091D0D0 /* UserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CF95C3254A6D9C0091D0D0 /* UserVC.swift */; };
 		E1CF95CA254A6E1C0091D0D0 /* UserHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1CF95C9254A6E1C0091D0D0 /* UserHeaderView.xib */; };
 		E1CF95CF254A6E910091D0D0 /* UserHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CF95CE254A6E910091D0D0 /* UserHeaderView.swift */; };
@@ -68,7 +76,15 @@
 		E10596382542803C00512941 /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 		E10596442543259100512941 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		E10A2EED2557901F003D9B8A /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		E11682242569FE3A0089A246 /* TableHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableHeaderView.xib; sourceTree = "<group>"; };
+		E116822C256A09090089A246 /* TableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableHeaderView.swift; sourceTree = "<group>"; };
+		E1168243256A564E0089A246 /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
+		E11FA9CB2573550B00C42C67 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		E11FA9D82573563B00C42C67 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		E15D50E3254694D50046BD4A /* ContentDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailTableViewCell.swift; sourceTree = "<group>"; };
+		E16D704425601B44002C7724 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		E16D704D25603193002C7724 /* DoctorInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorInfoVC.swift; sourceTree = "<group>"; };
+		E197F039256FF96400ABC43B /* ConfirmInformationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmInformationVC.swift; sourceTree = "<group>"; };
 		E1CF95C3254A6D9C0091D0D0 /* UserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVC.swift; sourceTree = "<group>"; };
 		E1CF95C9254A6E1C0091D0D0 /* UserHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserHeaderView.xib; sourceTree = "<group>"; };
 		E1CF95CE254A6E910091D0D0 /* UserHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHeaderView.swift; sourceTree = "<group>"; };
@@ -111,6 +127,7 @@
 		E10595F725427F3900512941 = {
 			isa = PBXGroup;
 			children = (
+				E16D704925601B4E002C7724 /* Extension */,
 				E1D479BD2543BD98006A7C2C /* custom components */,
 				E10596362542801D00512941 /* Controllers */,
 				E105960225427F3900512941 /* youMed */,
@@ -133,12 +150,10 @@
 		E105960225427F3900512941 /* youMed */ = {
 			isa = PBXGroup;
 			children = (
+				E1CBB45F2560CD6300D0635E /* Storyboard */,
 				E105960325427F3900512941 /* AppDelegate.swift */,
 				E105960C25427F3A00512941 /* Assets.xcassets */,
 				E105961125427F3A00512941 /* Info.plist */,
-				E105960E25427F3A00512941 /* LaunchScreen.storyboard */,
-				E1EE2F0525563E0A00098E1C /* Login.storyboard */,
-				E105960925427F3900512941 /* Main.storyboard */,
 				E105960525427F3900512941 /* SceneDelegate.swift */,
 			);
 			path = youMed;
@@ -165,6 +180,7 @@
 		E10596362542801D00512941 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				E11682232569FE1C0089A246 /* View */,
 				E1D479E42543CE9F006A7C2C /* View Controllers */,
 				E10596372542802E00512941 /* cell */,
 			);
@@ -180,6 +196,15 @@
 				E1580C042549801A000A2921 /* Header View */,
 			);
 			path = cell;
+			sourceTree = "<group>";
+		};
+		E11682232569FE1C0089A246 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E11682242569FE3A0089A246 /* TableHeaderView.xib */,
+				E116822C256A09090089A246 /* TableHeaderView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		E1580C042549801A000A2921 /* Header View */ = {
@@ -227,6 +252,35 @@
 			path = "Detail Table View Cell";
 			sourceTree = "<group>";
 		};
+		E16D704925601B4E002C7724 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E16D704425601B44002C7724 /* UIImageView.swift */,
+				E1168243256A564E0089A246 /* UITextField.swift */,
+				E11FA9CB2573550B00C42C67 /* UIView.swift */,
+				E11FA9D82573563B00C42C67 /* UIColor.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E197F035256FEF9B00ABC43B /* ConfirmInformationVC */ = {
+			isa = PBXGroup;
+			children = (
+				E197F039256FF96400ABC43B /* ConfirmInformationVC.swift */,
+			);
+			path = ConfirmInformationVC;
+			sourceTree = "<group>";
+		};
+		E1CBB45F2560CD6300D0635E /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				E105960E25427F3A00512941 /* LaunchScreen.storyboard */,
+				E1EE2F0525563E0A00098E1C /* Login.storyboard */,
+				E105960925427F3900512941 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
 		E1CF95C8254A6E090091D0D0 /* UserHeaderView */ = {
 			isa = PBXGroup;
 			children = (
@@ -248,10 +302,12 @@
 		E1D479E42543CE9F006A7C2C /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				E197F035256FEF9B00ABC43B /* ConfirmInformationVC */,
 				E1EE2F0D25569AF200098E1C /* LoginVC */,
 				E105960725427F3900512941 /* ScheduleVC.swift */,
 				E1D479E52543CED0006A7C2C /* TabbarController.swift */,
 				E1CF95C3254A6D9C0091D0D0 /* UserVC.swift */,
+				E16D704D25603193002C7724 /* DoctorInfoVC.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -370,6 +426,7 @@
 				E1EE2F0625563E0A00098E1C /* Login.storyboard in Resources */,
 				E105961025427F3A00512941 /* LaunchScreen.storyboard in Resources */,
 				E105960D25427F3A00512941 /* Assets.xcassets in Resources */,
+				E11682252569FE3A0089A246 /* TableHeaderView.xib in Resources */,
 				E1CF95CA254A6E1C0091D0D0 /* UserHeaderView.xib in Resources */,
 				E105960B25427F3900512941 /* Main.storyboard in Resources */,
 				E1D479F12543D7DD006A7C2C /* SpecialistCollectionViewCell.xib in Resources */,
@@ -399,6 +456,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E11FA9CC2573550B00C42C67 /* UIView.swift in Sources */,
+				E11FA9D92573563B00C42C67 /* UIColor.swift in Sources */,
+				E16D704525601B44002C7724 /* UIImageView.swift in Sources */,
 				E105960825427F3900512941 /* ScheduleVC.swift in Sources */,
 				E15D50E4254694D50046BD4A /* ContentDetailTableViewCell.swift in Sources */,
 				E1D47A032543DAD4006A7C2C /* SpecialistCollectionViewCell.swift in Sources */,
@@ -407,10 +467,14 @@
 				E105960425427F3900512941 /* AppDelegate.swift in Sources */,
 				E1D479BF2543BDAE006A7C2C /* CustomView.swift in Sources */,
 				E105960625427F3900512941 /* SceneDelegate.swift in Sources */,
+				E197F03A256FF96400ABC43B /* ConfirmInformationVC.swift in Sources */,
+				E116822D256A09090089A246 /* TableHeaderView.swift in Sources */,
+				E1168244256A564E0089A246 /* UITextField.swift in Sources */,
 				E10596452543259100512941 /* HeaderView.swift in Sources */,
 				E1EE2F0F25569B0A00098E1C /* LoginVC.swift in Sources */,
 				E1D47A17254425B2006A7C2C /* DetailTableViewCell.swift in Sources */,
 				E1CF95CF254A6E910091D0D0 /* UserHeaderView.swift in Sources */,
+				E16D704E25603193002C7724 /* DoctorInfoVC.swift in Sources */,
 				E10A2EEE2557901F003D9B8A /* View.swift in Sources */,
 				E1D479FE2543DA09006A7C2C /* SpecialistTableViewCell.swift in Sources */,
 			);
